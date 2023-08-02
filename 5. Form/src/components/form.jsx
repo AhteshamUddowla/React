@@ -25,6 +25,7 @@ class Form extends React.Component{
                    <input onChange={this.onChange} type="text" placeholder="Enter your name..."/>
                    <br /> <br />
                    <input type="button" value="Submit" />
+                   <hr />
                </form>
            </>
        )
