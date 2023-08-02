@@ -6,13 +6,23 @@ class State1 extends React.Component{
         super()
 
         this.state = {
-            name: 'Ahtesham'
+            name: "Ahteham"
         }
     }
 
-    render() {
-        return (
-            <h1>{this.state.name}</h1>
+    ChangeName(name){
+        this.setState({
+            name: name
+        })
+    }
+
+    render(){
+        return(
+            <>
+                <h1>{this.state.name}</h1>
+                <button onClick={this.ChangeName.bind(this, "Yeash")}>Change Name</button>
+                <hr />
+            </>
         )
     }
 }
