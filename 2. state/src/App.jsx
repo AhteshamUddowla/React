@@ -1,8 +1,8 @@
 import React from "react"
-import State0 from './components/State0'
+import State0 from './components/state0'
 import State1 from './components/State1'
 import State2 from "./components/state2"
-import State3 from "./components/State3"
+import State3 from "./components/state3"
 
 function App() {
 
