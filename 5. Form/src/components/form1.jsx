@@ -29,7 +29,8 @@ class Form1 extends React.Component{
                    <p>{this.state.username}</p>
                    <input name="username" onChange={this.onChange} type="text" placeholder="Enter your name..."/>
                    <br /> <br />
-                   <input type="submit" value="Submit" />
+                   <input type="submit" value="Submit" /> 
+                   <hr />
                </form>
            </>
        )
