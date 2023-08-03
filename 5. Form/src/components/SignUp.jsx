@@ -69,6 +69,7 @@ class SignUp extends React.Component{
                         <input onChange={this.onChangeHandler} type="text" name="mobile" placeholder="Mobile" /> <br />
                         <input type="submit" name="submit" value="Save Now" />
                 </form>
+                <hr />
             </>
         )
     }
