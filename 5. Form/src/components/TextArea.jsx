@@ -23,6 +23,7 @@ class TextArea extends React.Component{
             <>
                 <textarea onChange={this.onChange} placeholder="Please insert some text..." cols="30" rows="10"></textarea>
                 <p>{this.state.userInput}</p>
+                <hr />
             </>
         )
     }
