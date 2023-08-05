@@ -33,9 +33,11 @@ class CountryList extends React.Component{
         })
         return(
             <>
+                <h1>Get Request</h1>
                 <ol>
                     {CountryName}
                 </ol>
+                <hr />
             </>
         )
     }
